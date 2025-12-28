@@ -15,8 +15,6 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $resultado = curl_exec($ch);
 $data = json_decode($resultado, true);
 
-curl_close($ch);
-
 ?>
 
 <head> 
